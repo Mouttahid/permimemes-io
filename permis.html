@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+	* {
+		margin: 0%;
+		padding: 0%;
+	}
+	#interface {
+		width: 90%;
+
+	}
+	#qst {
+		position: absolute;
+		right: 30%;
+		top: 10%;
+		font-size: 1.5vw;
+		font-weight: bolder;
+	}
+	#ans {
+		position: absolute;
+		right: 30%;
+		bottom: 20%;
+		font-size: 1.5vw;
+		font-weight: bolder;
+	}
+	#number {
+		position: absolute;
+		bottom: 10%;
+		left: 17%;
+		width: 5%;
+		padding: 0.4%;
+
+	}
+	#btn {
+		position: absolute;
+		bottom: 9.7%;
+		left: 23%;
+		width: 5%;
+		padding: 0.4%;
+		cursor: pointer;
+	}
+	#end {
+		width: 100%;
+		background: green;
+		opacity: 0.9;
+		position: fixed;
+		z-index: 1;
+		height: 100%;
+		visibility: hidden;
+	}
+	#end h1 {
+		position: fixed;
+		top: 30%;
+		left: 40%;
+		opacity: 1;
+		color: black;
+		font-size: 3vw;
+	}
+</style>
+	<div id="end"><h1>لقد رسبت!<br>حاول الإنتحار في أقرب فرصة!</h1></div>
+	<div id="interface">
+		<img src="permis.jpg" width="100%">
+		<p id="qst">كنتي سايق بسرعة 450كم/الثانية ، و فجأة تقطع الفران.. و فقدتي السيطرة على العجلات، <br>و تحلو البيبان بأربعة.. و في نفس الوقت على بعد 5ميليمتر من السيارة كاينة عجوز سبعينية <br> كتقطع الشارع..</p>
+		<p id="ans">1ـ نبدأ العد على 1000000 و نتسنى الضربة<br><br>
+					2ـ نستعد للتوقف و أنا كنزيد في السرعة باستمرار<br><br>
+					3ـ نتفقد حالة زيت المحرك</p>
+	    <input type="number" name="answer" id="number">
+	    <button id="btn" onclick="suivant()">أجب</button>
+	</div>
+
+</body>
+<script type="text/javascript" src="permis.js"></script>
+</html>
